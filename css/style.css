@@ -723,6 +723,30 @@ img {
     display: block;
   }
 
+  .canvas-wrap {
+    width: 100vw;
+  }
+
+  .content-left {
+    width: 100%;
+    background: transparent;
+    padding: 0 16px;
+  }
+
+  .scroll-spacer-small {
+    height: 60vh;
+  }
+
+  .content-section {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    margin: 0 auto 4rem auto;
+    padding: 3rem 1.5rem;
+  }
+
   .features-grid {
     grid-template-columns: 1fr;
     gap: 0;
