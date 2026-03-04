@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suonter — Professional Blender</title>
+  <meta name="description"
+    content="Suonter Professional Blender — 1200W of precision power, 6 titanium-coated blades, and one-touch auto-clean. Engineered for perfection.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-brand">SUONTER</div>
+      <div class="loader-bar-track">
+        <div id="loader-bar"></div>
+      </div>
+      <div id="loader-percent">0%</div>
+    </div>
+  </div>
+
+  <!-- Fixed Video Canvas (always behind everything) -->
+  <div class="canvas-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- Header -->
+  <header id="site-header" class="site-header">
+    <nav>
+      <a href="#" class="logo">OBSIDIAN</a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#specs">Specs</a></li>
+        <li><a
+            href="https://www.mediaexpert.pl/agd-male/do-kuchni/blendery-kielichowe/blender-kielichowy-bosch-vita-power-mmb6762m-wysokoobrotowy"
+            target="_blank" class="nav-cta">Pre-Order</a></li>
+      </ul>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#specs">Specs</a></li>
+      <li><a
+          href="https://www.mediaexpert.pl/agd-male/do-kuchni/blendery-kielichowe/blender-kielichowy-bosch-vita-power-mmb6762m-wysokoobrotowy"
+          target="_blank" class="nav-cta">Pre-Order</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <span class="hero-eyebrow">001 / INTRODUCING</span>
+      <h1 class="hero-title">OBSIDIAN<br><span class="hero-title-accent">VORTEX</span></h1>
+    </div>
+    <div class="scroll-cue">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Split Section (Content Left, Canvas Right) -->
+  <div class="split-wrapper" id="split-section">
+    <!-- Left side scrolling content -->
+    <main id="scroll-container" class="content-left">
+      <!-- Spacer to align the first content item if needed -->
+      <div class="scroll-spacer-small"></div>
+
+      <!-- Feature 1 -->
+      <section class="content-section" id="features" data-anim="fade-up">
+        <div class="section-badge">01</div>
+        <h2 class="section-title">brushless<br>motor</h2>
+        <p class="section-text">A 2,400-watt brushless DC motor with active thermal management. Zero friction. Zero
+          maintenance. Infinite endurance. The kind of engineering usually reserved for electric supercars.</p>
+      </section>
+
+      <!-- Feature 2 -->
+      <section class="content-section" data-anim="fade-up">
+        <div class="section-badge">02</div>
+        <h2 class="section-title">titanium<br>blades</h2>
+        <p class="section-text">Hardened titanium-coated stainless steel. Stays razor-sharp through 10,000+ blending
+          cycles, obliterating ice and fibrous ingredients in seconds.</p>
+      </section>
+
+      <!-- Feature 3 -->
+      <section class="content-section" data-anim="fade-up">
+        <div class="section-badge">03</div>
+        <h2 class="section-title">auto<br>clean</h2>
+        <p class="section-text">One-touch self-cleaning cycle. Add water, press the button, done in 60 seconds.</p>
+      </section>
+
+      <!-- Pull Quote -->
+      <section class="content-section quote-section" data-anim="fade-up">
+        <blockquote class="pull-quote">
+          "The most powerful machine ever placed on a countertop."
+        </blockquote>
+      </section>
+
+      <!-- Specs -->
+      <section class="content-section specs-section" id="specs" data-anim="fade-up">
+        <div class="section-badge">04 / SPECIFICATIONS</div>
+        <div class="specs-grid">
+          <div class="spec-item">
+            <span class="spec-value" data-counter="2400">0</span>
+            <span class="spec-unit">W</span>
+            <span class="spec-label">Peak Power</span>
+          </div>
+          <div class="spec-item">
+            <span class="spec-value" data-counter="38000">0</span>
+            <span class="spec-unit">RPM</span>
+            <span class="spec-label">Max Speed</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="content-section cta-section" id="order" data-anim="fade-up">
+        <h2 class="cta-title">Ready to Experience?</h2>
+        <a href="https://www.mediaexpert.pl/agd-male/do-kuchni/blendery-kielichowe/blender-kielichowy-bosch-vita-power-mmb6762m-wysokoobrotowy"
+          target="_blank" class="cta-button" id="cta-order">
+          <span>Pre-Order — $299</span>
+        </a>
+      </section>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <span class="footer-brand">OBSIDIAN</span>
+          <span class="footer-copy">© 2026 Obsidian Inc. All rights reserved.</span>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
